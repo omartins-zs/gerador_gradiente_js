@@ -41,3 +41,13 @@ input[type="color"]::-webkit-color-swatch {
     border-radius: 10px;
     border: none;
 }
+
+.divDirection>i {
+    font-size: 30px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.active {
+    color: black !important;
+}
