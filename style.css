@@ -4,11 +4,24 @@
     outline: none;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
-  }
+}
 
-  body {
+body {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
+
+main {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f7f7f7;
+}
+
+h3 {
+    color: #616161;
+}
