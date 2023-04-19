@@ -14,3 +14,11 @@ directions.forEach((item) => {
         direction = item.getAttribute("data-dir");
     };
 });
+
+
+btnGerar.onclick = () => {
+    const gradient = `linear-gradient(${direction}, ${color01.value}, ${color02.value})`;
+
+    document.body.style.backgroundImage = gradient;
+    output.value = gradient;
+};
